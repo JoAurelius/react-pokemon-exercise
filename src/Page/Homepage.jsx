@@ -54,8 +54,8 @@ export const Page = () => {
         <>
             <Choosen>
                 <ChoosenHeading title="Sang Terpilih" />
-                <ChoosenImg src={chosen.sprites.other.dream_world.front_default} />
-                <ChoosenName title={chosen.name} />
+                {/* <ChoosenImg src={chosen.sprites.other.dream_world.front_default} />
+                <ChoosenName title={chosen.name} /> */}
             </Choosen>
             <PokemonList>
                 {pokemonData.map((item) => {
